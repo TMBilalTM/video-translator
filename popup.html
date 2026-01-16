@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Altyazı Çevirmeni</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-content">
+        <h1 class="title">Altyazı Çevirmeni</h1>
+        <div class="status-indicator" id="statusIndicator">
+          <span class="status-dot"></span>
+          <span class="status-text">Aktif</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Toggle Switch -->
+      <div class="control-group">
+        <label class="switch-container">
+          <span class="switch-label">Otomatik Çeviri</span>
+          <div class="switch">
+            <input type="checkbox" id="enabledToggle" checked>
+            <span class="switch-slider"></span>
+          </div>
+        </label>
+      </div>
+
+      <!-- Language Selection -->
+      <div class="control-group">
+        <label class="select-label" for="targetLanguage">Hedef Dil</label>
+        <div class="select-wrapper">
+          <select id="targetLanguage" class="select">
+            <option value="tr" selected>Türkçe</option>
+            <option value="en">İngilizce</option>
+            <option value="de">Almanca</option>
+            <option value="fr">Fransızca</option>
+            <option value="es">İspanyolca</option>
+            <option value="it">İtalyanca</option>
+            <option value="ar">Arapça</option>
+            <option value="ru">Rusça</option>
+            <option value="ja">Japonca</option>
+            <option value="ko">Korece</option>
+            <option value="zh-CN">Çince (Basitleştirilmiş)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Show Original Option -->
+      <div class="control-group">
+        <label class="checkbox-container">
+          <input type="checkbox" id="showOriginal" class="checkbox">
+          <span class="checkbox-label">Orijinal metni de göster</span>
+        </label>
+      </div>
+
+      <!-- Statistics -->
+      <div class="stats">
+        <div class="stat-item">
+          <span class="stat-value" id="translationCount">0</span>
+          <span class="stat-label">Çeviri yapıldı</span>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer-text">Video izlerken altyazılar otomatik çevrilecek</p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

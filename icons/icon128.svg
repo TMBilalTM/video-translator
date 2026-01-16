@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="24" fill="#0a0a0a"/>
+  <rect x="4" y="4" width="120" height="120" rx="20" stroke="#00ff88" stroke-width="2"/>
+  
+  <!-- Translation icon -->
+  <path d="M40 48L48 32L56 48" stroke="#00ff88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="42" y1="42" x2="54" y2="42" stroke="#00ff88" stroke-width="3" stroke-linecap="round"/>
+  
+  <path d="M72 80L80 96L88 80" stroke="#00ff88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="74" y1="86" x2="86" y2="86" stroke="#00ff88" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Arrows -->
+  <path d="M58 56L70 68" stroke="#00ff88" stroke-width="3" stroke-linecap="round"/>
+  <path d="M64 56L70 62L64 68" stroke="#00ff88" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Subtitle lines -->
+  <rect x="24" y="60" width="40" height="3" rx="1.5" fill="#00ff88"/>
+  <rect x="24" y="68" width="32" height="3" rx="1.5" fill="#00ff88" opacity="0.6"/>
+  
+  <rect x="64" y="48" width="40" height="3" rx="1.5" fill="#00ff88"/>
+  <rect x="72" y="56" width="32" height="3" rx="1.5" fill="#00ff88" opacity="0.6"/>
+</svg>
